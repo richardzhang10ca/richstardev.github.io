@@ -1,12 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Rich Star Development - Your Reliable Contractor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f7f7f7;
+            line-height: 1.6;
+        }
+        .banner {
+            background: linear-gradient(90deg, #0f172a, #1d4ed8);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .banner p {
+            font-size: 20px;
+            opacity: 0.95;
+        }
+        .nav {
+            background: white;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        .nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #1e3a8a;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            color: #2563eb;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .project-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 16px;
+            color: #333;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .cn {
+            color: #555;
+            font-style: italic;
+        }
+    </style>
 </head>
-<body>
-    <h1>Rich Star Dev - Home Depot Approved Contractor</h1>
 
-    <!-- 把你的脚本粘贴在这里 -->
+<body>
+
+    <!-- 顶部横幅 -->
+    <div class="banner">
+        <h1>Rich Star Development</h1>
+        <p>Your Reliable Home Depot Approved Contractor</p>
+        <p class="cn">您值得信赖的家得宝认证承包商</p>
+    </div>
+
+    <!-- 导航 -->
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <!-- 项目图片 -->
+        <div class="section">
+            <h2>Our Projects / 工程项目</h2>
+            <img src="https://picsum.photos/id/1048/1000/500" alt="Construction Project" class="project-img">
+            <p>Professional design, construction, and renovation services for residential and commercial projects.</p>
+            <p class="cn">专业住宅及商业设计、建造与翻新服务。</p>
+        </div>
+
+        <!-- 联系方式 -->
+        <div class="section">
+            <h2>Contact Us / 联系我们</h2>
+            <div class="contact-info">
+                <p><strong>Company:</strong> Rich Star Development</p>
+                <p class="cn"><strong>公司:</strong> 富鑫建筑工程</p>
+
+                <p><strong>Phone:</strong> +1 (778) 881-9778</p>
+                <p class="cn"><strong>电话:</strong> +1 (778) 881-9778</p>
+
+                <p><strong>Email:</strong> richardzhang10ca@gmail.com</p>
+                <p class="cn"><strong>邮箱:</strong> richardzhang10ca@gmail.com</p>
+
+                <p><strong>Location:</strong> Greater Vancouver, BC, Canada</p>
+                <p class="cn"><strong>地区:</strong> 加拿大不列颠哥伦比亚省大温哥华地区</p>
+            </div>
+        </div>
+
+    </div>
     <script>
       var e, t, i, n, d, a;(e = window),(t = document),(i = "script"),(window.entuitiveSettings = { apiKey: "REPLACE_WITH_YOUR_API_KEY" }),
         ((a = document.createElement("div")).id = "entuitive-widget"),document.getElementsByTagName("body")[0].appendChild(a),
